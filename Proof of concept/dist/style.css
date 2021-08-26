@@ -1,0 +1,81 @@
+body {
+  background-color: #666161; }
+
+.header {
+  background-color: #e0c297;
+  padding: 50px;
+  text-align: left;
+}
+
+.headertext {
+  -webkit-text-stroke: 1.5px #9e5d5c;
+  color: black;
+  text-shadow: 2px 2px 5px red;
+  text-transform: uppercase;
+  font-size:50px;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  padding: 20px;
+  background-color: #794045;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #F0F8Fc;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.mainsection {
+  float: left;
+  width: 70%;
+  padding-right: 80px;
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+.right {
+  float: right;
+  width: 30%;
+  padding-left: 60px;
+  padding-right: 150px;
+  padding-top: 27px;
+}
+
+.profileimage {
+  background-image: IMG_7952.JPG;
+  width: 1000px;
+  height: 1000px;
+  padding: 20px;
+}
+
+.area {
+  background-color: #F0F8FF;
+  padding: 20px;
+  margin-top: 40px;
+  border-style:solid;
+	border-width:medium;
+}
+
+.row: after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #3cb6c5;
+}
+
+.search {
+  padding-left: 1100px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
