@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title>task1</title>
+  </head>
+  <body>
+    <section class="post" id="post">
+      <h2>post your comment here</h2>
+      <p>
+        <span class="text">Your Name</span>
+        <br>
+        <input type="text" v-model="name" id="name">
+        <p>your name is {{ name }}</p>
+      </p>
+      
+      <p>
+        <span>write your post here:</span>
+         <br>  
+          <textarea v-model="message" placeholder="write post here"></textarea>
+          <p> {{ message }}</p>
+      </p>
+      
+      <p>
+        <span>
+         <input type="button" value="Post" class="sub" onclick="checkForm();">
+        </span>
+        <input type="reset" value="Cancel" class="res">
+      </p>
+    </section>
+    </body>
+  <script>
+new Vue({
+  el: "#post",
+  data: {
+    name: "",
+    message: ""
+  }
+});
+</Script>
+    </html>
+    
+  </body>
+</html>

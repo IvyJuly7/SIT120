@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>private/publish</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h2>change the state for your post:</h2>
+<div id="states" class="demo">
+  <select v-model="selected">
+    <option v-for="option in options" v-bind:value="option.value">
+      {{ option.text }}
+    </option>
+  </select>
+  <br>
+  <span>{{ selected }}</span>
+</div>
+<!-- partial -->
+  <script src='https://unpkg.com/vue@next'></script><script  src="./script.js"></script>
+
+</body>
+</html>

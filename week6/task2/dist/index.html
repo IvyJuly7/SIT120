@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>tagname</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="tags" class="demo">
+  <h3>choose the tag from the following for your post:</h3>
+  <input type="checkbox" id="cosmetic" value="cosmetic" v-model="checkedNames" />
+  <label for="cosmetic">cosmetic</label>
+  <input type="checkbox" id="food" value="food" v-model="checkedNames" />
+  <label for="food">food</label>
+  <input type="checkbox" id="travel" value="travel" v-model="checkedNames" />
+  <label for="travel">travel</label>
+  <input type="checkbox" id="movie" value="movie" v-model="checkedNames" />
+  <label for="movie">movie</label>
+  <input type="checkbox" id="skincare" value="skincare" v-model="checkedNames" />
+  <label for="skincare">skincare</label>
+  <br />
+  <span>tags names: {{ checkedNames }}</span>
+</div>
+<!-- partial -->
+  <script src='https://unpkg.com/vue@next'></script><script  src="./script.js"></script>
+
+</body>
+</html>
